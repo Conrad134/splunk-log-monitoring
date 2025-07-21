@@ -1,4 +1,4 @@
-# Windows Logon Failure Monitoring with Splunk
+# Windows Login Failure Monitoring with Splunk
 
 This project demonstrates how to detect and monitor failed Windows logon attempts (Event ID 4625) using **Splunk**. It includes steps to ingest Windows Event Logs, run SPL queries, build dashboards, and create alerts for suspicious login activity.
 
