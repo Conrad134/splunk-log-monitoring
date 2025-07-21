@@ -44,7 +44,8 @@ source="WinEventLog:*" host="CONRAD" EventCode=4625
 | table _time, user, host, Logon_Type, WorkstationName, FailureReason
 | sort -_time
  ```
-
+![Search Results](images/spl1.png)
+![Search Results](images/spl12.png)
 
 ### 5. Dashboard Creation
 - After running the SPL query,Click Save As > New Dashboard
@@ -53,7 +54,8 @@ source="WinEventLog:*" host="CONRAD" EventCode=4625
 - Add a panel with the above SPL query
 - Add description for context
 - Click Save
-
+  
+![Dashboard View](images/Dashboard.png)
   
 ### 6.Create Alert for Failed Logins
 - Run your SPL query
@@ -65,8 +67,15 @@ Set the following:
 - Trigger actions: Add Email notification (or Log to file)
 - Save the alert
 
+  ![Alert Setup](images/alert.png)
+  
+- Alert Received via email after failed Login Attempts
+  
+  ![Alert Setup](images/alert_email.png)
+
 Screenshots
-![Dashboard View](screenshots/dashboard_view.png)
-![Search Results](screenshots/search_results.png)
-![Alert Setup](screenshots/alert_setup.png)
+
+
+
+
 
