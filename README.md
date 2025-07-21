@@ -47,7 +47,7 @@ source="WinEventLog:*" host="CONRAD" EventCode=4625
 ![Search Results](images/spl1.png)
 
 
-![Search Results](images/spl12.png)
+![Search Results](images/spl2.png)
 
 ### 5. Dashboard Creation
 - After running the SPL query,Click Save As > New Dashboard
