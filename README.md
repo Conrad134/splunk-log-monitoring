@@ -45,6 +45,8 @@ source="WinEventLog:*" host="CONRAD" EventCode=4625
 | sort -_time
  ```
 ![Search Results](images/spl1.png)
+
+
 ![Search Results](images/spl12.png)
 
 ### 5. Dashboard Creation
